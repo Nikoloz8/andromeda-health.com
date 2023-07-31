@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Container{
+    margin: auto;
+    width: 960px;
+}
+.Contact{
+    background-color: #2e2e2e;
+    height: 38px;
+    width: 100%;
+}
+.Contact-Items{
+    display: flex;
+}
+.Linkedin-Adress{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+.Email-Adress{
+    width: 20px;
+    height: 20px;
+    margin-top: 7px;
+}
