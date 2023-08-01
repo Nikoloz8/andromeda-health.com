@@ -6,22 +6,94 @@
     margin: auto;
     width: 960px;
 }
-.Contact{
-    background-color: #2e2e2e;
-    height: 38px;
+header{
+    position: fixed;
     width: 100%;
 }
+.Contact{
+    background-color: #2e2e2e;
+    height: 100%;
+    min-height: 38px;
+}
 .Contact-Items{
+    display: flex;
+    justify-content: space-between;
+}
+.Contact-Item-Location{
+    margin-top: 7px;
+    display: flex;
+}
+.Contact-Item-Adress{
+    margin-right: 166px;
+    margin-left: 85px;
+    margin-top: 6px;
     display: flex;
 }
 .Linkedin-Adress{
     width: 20px;
     height: 20px;
     margin-right: 10px;
-    margin-top: 7px;
 }
 .Email-Adress{
     width: 20px;
     height: 20px;
-    margin-top: 7px;
+}
+.Location, .Phone-Number{
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.Navigation{
+    width: 100%;
+    height: 98px;
+    padding-top: 18.5px;
+    padding-bottom: 18.5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.Navigation-Items{
+    display: flex;
+    justify-content: space-between;
+}
+.Header-Nav{
+    margin-top: 38px;
+}
+ul{
+    display: flex;
+}
+.Nav-Home{
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #333;
+}
+.Nav-About{
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-bottom: 4px;
+    animation: ease-in-out;
+    transition: 0.5s;
+
+}
+.Header-Link{
+    text-decoration: none;
+    color: inherit;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.Home-Button-Image{
+    width: 181px;
+    height: 98px;
+    margin-right: 28px;
+}
+.Nav-About::before{
+    border-bottom: 2px solid white;
+}
+.Nav-About::after{
+    border-bottom: 2px solid #333;
 }
