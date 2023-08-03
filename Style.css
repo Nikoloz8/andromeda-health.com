@@ -2,18 +2,22 @@
     margin: 0;
     padding: 0;
 }
+body{
+    overflow: hidden;
+}
 .Container{
     margin: auto;
     width: 960px;
 }
 header{
-    position: fixed;
     width: 100%;
+    
 }
 .Contact{
     background-color: #2e2e2e;
     height: 100%;
     min-height: 38px;
+    width: 100%;
 }
 .Contact-Items{
     display: flex;
@@ -57,7 +61,7 @@ header{
     justify-content: space-between;
 }
 .Header-Nav{
-    margin-top: 38px;
+    margin-top: 50px;
 }
 ul{
     display: flex;
@@ -70,16 +74,14 @@ ul{
     padding-bottom: 4px;
     border-bottom: 2px solid #333;
 }
-.Nav-About{
+.Nav-About, .Nav-OurSolutions, .Nav-OurCustomers, .Nav-Contacts{
     display: flex;
     font-size: 18px;
     font-weight: 700;
     font-family:Arial, Helvetica, sans-serif;
     padding-bottom: 4px;
-    animation: ease-in-out;
-    transition: 0.5s;
-
 }
+
 .Header-Link{
     text-decoration: none;
     color: inherit;
@@ -91,9 +93,42 @@ ul{
     height: 98px;
     margin-right: 28px;
 }
-.Nav-About::before{
-    border-bottom: 2px solid white;
-}
-.Nav-About::after{
+.Nav-About:hover, .Nav-OurSolutions:hover, .Nav-OurCustomers:hover, .Nav-Contacts:hover{
     border-bottom: 2px solid #333;
 }
+.Sliding-Images{
+    width: 100%; 
+    height: 238px; 
+    overflow: hidden;
+    position: relative;
+}
+.Slide{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+}
+.Sliding-Image1{
+    background-image: url(https://lirp.cdn-website.com/6b94b411/dms3rep/multi/opt/pexels-photo-3774903-cf6ec6f2-1920w.jpeg);
+    animation: Slide-fade 9s infinite;
+}
+.Sliding-Image2{
+    background-image: url(https://lirp.cdn-website.com/6b94b411/dms3rep/multi/opt/imac-apple-mockup-app-38544-fc0196bc-1920w.jpeg);
+    animation: Slide-fade 9s infinite 3s;
+}
+.Sliding-Image3{
+    background-image: url(https://lirp.cdn-website.com/6b94b411/dms3rep/multi/opt/pexels-photo-5082579-2bc2e5c1-1920w.jpeg);
+    animation: Slide-fade 9s infinite 6s;
+}
+
+  @keyframes Slide-fade {
+    0%, 25% {
+        opacity: 0;
+      }
+      30%, 55% {
+        opacity: 1;
+      }
+      60%, 85% {
+        opacity: 0;
+      }
+  }
