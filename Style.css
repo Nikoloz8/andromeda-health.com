@@ -81,7 +81,6 @@ ul{
     font-family:Arial, Helvetica, sans-serif;
     padding-bottom: 4px;
 }
-
 .Header-Link{
     text-decoration: none;
     color: inherit;
@@ -96,6 +95,26 @@ ul{
 .Nav-About:hover, .Nav-OurSolutions:hover, .Nav-OurCustomers:hover, .Nav-Contacts:hover{
     border-bottom: 2px solid #333;
 }
+.Dropdown-Customers{
+    position: relative;
+    display: inline-block;
+    touch-action: manipulation;
+    display: flex;
+}
+.Dropdown-Menu-OurCustomers{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.Dropdown-Customers:hover .Dropdown-OurCustomers {
+    display: block;
+}
 .Sliding-Images{
     width: 100%; 
     height: 238px; 
@@ -107,10 +126,11 @@ ul{
     height: 100%;
     position: absolute;
     opacity: 0;
+    background-position: 50% 50%;
 }
 .Sliding-Image1{
     background-image: url(https://lirp.cdn-website.com/6b94b411/dms3rep/multi/opt/pexels-photo-3774903-cf6ec6f2-1920w.jpeg);
-    animation: Slide-fade 9s infinite;
+    animation: Slide-fade 9s infinite; 
 }
 .Sliding-Image2{
     background-image: url(https://lirp.cdn-website.com/6b94b411/dms3rep/multi/opt/imac-apple-mockup-app-38544-fc0196bc-1920w.jpeg);
@@ -121,7 +141,7 @@ ul{
     animation: Slide-fade 9s infinite 6s;
 }
 
-  @keyframes Slide-fade {
+@keyframes Slide-fade {
     0%, 25% {
         opacity: 0;
       }
@@ -131,4 +151,4 @@ ul{
       60%, 85% {
         opacity: 0;
       }
-  }
+}
