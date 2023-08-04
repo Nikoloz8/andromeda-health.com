@@ -122,6 +122,47 @@ ul{
 }
 .Dropdown-Customers:hover .Dropdown-Menu-OurCustomers, .Dropdown-Solutions:hover .Dropdown-Menu-OurSolutions {
     display: block;
+}   
+.Customers-Anchor, .Solutions-Anchor{
+    text-decoration: none;
+    color: inherit;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.Dropdown-Menu-OurCustomers li{
+    width: 180px;
+    height: 48px;
+    background-color: white;
+    border-bottom: 1px solid #d1d1d1;
+    display: flex;
+    align-items: center;
+}
+.Dropdown-Menu-OurSolutions li{
+    width: 330px;
+    height: 48px;
+    background-color: white;
+    border-bottom: 1px solid #d1d1d1;
+    display: flex;
+    align-items: center;
+}
+.Dropdown-Menu-OurCustomers li:hover{
+    background-color: black;
+    color: white;
+}
+.Dropdown-Menu-OurSolutions li:hover{
+    background-color: black;
+    color: white;
+}
+.Dropdown-Icon{
+    width: 10px;
+    height: 6px;
+    margin-left: 5px;
+}
+.Header-Link-Customers{
+    align-items: center;
+}
+.Header-Link-Customers:hover .Dropdown-Icon{
+    transform: rotate(200grad);
 }
 .Sliding-Images{
     width: 100%; 
