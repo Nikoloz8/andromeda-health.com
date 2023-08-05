@@ -2,51 +2,62 @@
     margin: 0;
     padding: 0;
 }
+
 body{
     overflow: hidden;
 }
+
 .Container{
     margin: auto;
     width: 960px;
 }
+
 header{
     width: 100%;    
 }
+
 .Contact{
     background-color: #2e2e2e;
     height: 100%;
     min-height: 38px;
     width: 100%;
 }
+
 .Contact-Items{
     display: flex;
     justify-content: space-between;
 }
+
 .Contact-Item-Location{
     margin-top: 7px;
     display: flex;
 }
+
 .Contact-Item-Adress{
     margin-right: 166px;
     margin-left: 85px;
     margin-top: 6px;
     display: flex;
 }
+
 .Linkedin-Adress{
     width: 20px;
     height: 20px;
     margin-right: 10px;
 }
+
 .Email-Adress{
     width: 20px;
     height: 20px;
 }
+
 .Location, .Phone-Number{
     font-size: 16px;
     color: white;
     font-weight: 400;
     font-family:Arial, Helvetica, sans-serif;
 }
+
 .Navigation{
     width: 100%;
     height: 98px;
@@ -55,16 +66,21 @@ header{
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .Navigation-Items{
     display: flex;
     justify-content: space-between;
 }
+
 .Header-Nav{
+    display: flex;
     margin-top: 50px;
 }
+
 ul{
     display: flex;
 }
+
 .Nav-Home{
     display: flex;
     font-size: 18px;
@@ -73,6 +89,7 @@ ul{
     padding-bottom: 4px;
     border-bottom: 2px solid #333;
 }
+
 .Nav-About, .Nav-OurSolutions, .Nav-OurCustomers, .Nav-Contacts{
     display: flex;
     font-size: 18px;
@@ -80,37 +97,43 @@ ul{
     font-family:Arial, Helvetica, sans-serif;
     padding-bottom: 4px;
 }
+
 .Header-Link, .Dropdown-Solutions, .Dropdown-Customers{
     text-decoration: none;
     color: inherit;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
     z-index: 1;
 }
+
 .Header-Link-Solutions{
     text-decoration: none;
     color: inherit;
     z-index: 1;
 }
+
 .Home-Button-Image{
     width: 181px;
     height: 98px;
     margin-right: 28px;
 }
+
 .Nav-About:hover, .Nav-OurSolutions:hover, .Nav-OurCustomers:hover, .Nav-Contacts:hover{
     border-bottom: 2px solid #333;
 }
+
 .Dropdown-Customers, .Dropdown-Solutions{
     position: relative;
     touch-action: manipulation;
     display: flex;
-
 }
+
 .Header-Link-Customers, .Header-Link-Solutions{
     display: flex;
     text-decoration: none;
     color: #333;
 }
+
 .Dropdown-Menu-OurCustomers, .Dropdown-Menu-OurSolutions{
     display: none;
     position: absolute;
@@ -120,15 +143,18 @@ ul{
     padding: 0;
     margin: 0;
 }
+
 .Dropdown-Customers:hover .Dropdown-Menu-OurCustomers, .Dropdown-Solutions:hover .Dropdown-Menu-OurSolutions {
     display: block;
-}   
+}
+
 .Customers-Anchor, .Solutions-Anchor{
     text-decoration: none;
     color: inherit;
     font-size: 15px;
     font-family:Arial, Helvetica, sans-serif;
 }
+
 .Dropdown-Menu-OurCustomers li{
     width: 180px;
     height: 48px;
@@ -136,7 +162,9 @@ ul{
     border-bottom: 1px solid #d1d1d1;
     display: flex;
     align-items: center;
+    padding-left: 15px;
 }
+
 .Dropdown-Menu-OurSolutions li{
     width: 330px;
     height: 48px;
@@ -144,32 +172,50 @@ ul{
     border-bottom: 1px solid #d1d1d1;
     display: flex;
     align-items: center;
+    padding-left: 15px;
 }
+
 .Dropdown-Menu-OurCustomers li:hover{
     background-color: black;
     color: white;
 }
+
 .Dropdown-Menu-OurSolutions li:hover{
     background-color: black;
     color: white;
 }
+
 .Dropdown-Icon{
     width: 10px;
     height: 6px;
     margin-left: 5px;
+    transition: 0.2s;
 }
-.Header-Link-Customers{
+
+.Header-Link-Customers, .Header-Link-Solutions{
     align-items: center;
 }
+
 .Header-Link-Customers:hover .Dropdown-Icon{
     transform: rotate(200grad);
 }
+
+.Header-Link-Solutions:hover .Dropdown-Icon{
+    transform: rotate(200grad);
+}
+
+.Dropdown-Menu-OurCustomers:hover .Dropdown-Icon{
+    transform: rotate(200deg);
+}
+
 .Sliding-Images{
     width: 100%; 
     height: 238px; 
     overflow: hidden;
     position: relative;
+    opacity: 0.56;
 }
+
 .Slide{
     width: 100%;
     height: 100%;
@@ -177,17 +223,26 @@ ul{
     opacity: 0;
     background-position: 50% 50%;
 }
+
 .Sliding-Image1{
     background-image: url(https://lirp.cdn-website.com/6b94b411/dms3rep/multi/opt/pexels-photo-3774903-cf6ec6f2-1920w.jpeg);
-    animation: Slide-fade 9s infinite; 
+    animation: Slide-fade1 9s infinite; 
 }
+
 .Sliding-Image2{
     background-image: url(https://lirp.cdn-website.com/6b94b411/dms3rep/multi/opt/imac-apple-mockup-app-38544-fc0196bc-1920w.jpeg);
     animation: Slide-fade 9s infinite 3s;
 }
+
 .Sliding-Image3{
     background-image: url(https://lirp.cdn-website.com/6b94b411/dms3rep/multi/opt/pexels-photo-5082579-2bc2e5c1-1920w.jpeg);
     animation: Slide-fade 9s infinite 6s;
+}
+
+@keyframes Slide-fade1{
+    0%, 70% {
+        opacity: 1;
+    }
 }
 
 @keyframes Slide-fade {
