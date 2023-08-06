@@ -4,16 +4,28 @@
 }
 
 body{
-    overflow: hidden;
-}
+    overflow-y: scroll;
+    overflow-x: hidden;
+ }
 
 .Container{
     margin: auto;
     width: 960px;
 }
+.Placeholder{
+    width: 100%; 
+    height: 238px; 
+    overflow: hidden;
+    position: relative;
+    opacity: 0.56;
+}
 
 header{
     width: 100%;    
+    background-color: white;
+    position: fixed; /* Fixed position to cover the whole width */
+    top: 0; /* Stick to the top of the viewport */
+    z-index: 1000; /* Adjust the stacking order if needed */
 }
 
 .Contact{
@@ -184,7 +196,6 @@ ul{
     background-color: black;
     color: white;
 }
-
 .Dropdown-Icon{
     width: 10px;
     height: 6px;
@@ -204,11 +215,8 @@ ul{
     transform: rotate(200grad);
 }
 
-.Dropdown-Menu-OurCustomers:hover .Dropdown-Icon{
-    transform: rotate(200deg);
-}
-
 .Sliding-Images{
+    margin-top: 173px;
     width: 100%; 
     height: 238px; 
     overflow: hidden;
@@ -255,4 +263,66 @@ ul{
       60%, 85% {
         opacity: 0;
       }
+}
+
+.Seamless-Experance{
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+    margin-bottom: 55px;
+}
+.Seamless-Experance-Items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Seamless-Experance-Item{
+    width: 450px;
+}
+
+.Seamless-Experance-Item-Img1{
+    width: 420px;
+    height: 410px;
+    transition: 0.3s; 
+}
+
+.Seamless-Experance-Item-Img2{
+    width: 450px;
+    height: 368px;
+    transition: 0.3s; 
+}
+.Seamless-Experance-Item-Img1:hover{
+    transform: scale(1.1);
+}
+
+.Seamless-Experance-Item-Img2:hover{
+    transform: scale(1.1);
+}
+
+.Comprehensive-Platform, .Ease-Of-Use{
+    color: #997361;
+    font-size: 26px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 44px;
+    margin-bottom: 40px;
+}
+
+.Ease-Of-Use{
+    margin-top: 79px;
+}
+
+.Comprehensive-Platform-Text, .Ease-Of-Use-Text{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #888a8c;
+}
+
+.Healthcare-Section-Icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 49px;
 }
