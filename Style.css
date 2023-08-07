@@ -23,9 +23,9 @@ body{
 header{
     width: 100%;    
     background-color: white;
-    position: fixed; /* Fixed position to cover the whole width */
-    top: 0; /* Stick to the top of the viewport */
-    z-index: 1000; /* Adjust the stacking order if needed */
+    position: fixed;
+    top: 0; 
+    z-index: 1000;
 }
 
 .Contact{
@@ -39,7 +39,6 @@ header{
     display: flex;
     justify-content: space-between;
 }
-
 .Contact-Item-Location{
     margin-top: 7px;
     display: flex;
@@ -325,4 +324,58 @@ ul{
     display: flex;
     justify-content: center;
     margin-top: 49px;
+}
+
+.For-Healthcare-Background{
+    background-color: #f4f4f3;
+    width: 100%;
+    height: 100%;
+}
+
+.Healthcare-Section-Title{
+    font-size: 29px;
+    color: #272725;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 15px;
+}
+
+.Healthcare-Ecosystem-Items-Part{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Healthcare-Ecosystem-Item{
+    width: 238.25px;
+}
+
+.Healthcare-Ecosystem-Item-Img{
+    margin-top: 10px;
+    width: 231.25px;
+    height: 231.25px;
+}
+
+.Healthcare-Ecosystem-Item-Title{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #997361;
+    text-align: center;
+}
+
+.Healthcare-Ecosystem-Item-Text{
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Doctors-Title{
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
+
+.Doctors-Ul{
+    display: flex;
 }
