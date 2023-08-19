@@ -334,8 +334,8 @@ ul{
 
 .Healthcare-Section-Title{
     font-size: 29px;
-    color: #272725;
     text-align: center;
+    color: #272725;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     margin-top: 24px;
@@ -349,10 +349,11 @@ ul{
 
 .Healthcare-Ecosystem-Item{
     width: 230px;
+    padding: 3.5px;
 }
 
 .Healthcare-Ecosystem-Item-Img{
-    margin-top: 13.5px;
+    margin-top: 10px;
     width: 231.25px;
     height: 231.25px;
 }
@@ -364,6 +365,7 @@ ul{
     color: #997361;
     text-align: center;
     margin-top: 15px;
+    margin-bottom: 16px;
 }
 
 .Healthcare-Ecosystem-Item-Text{
@@ -372,28 +374,44 @@ ul{
     font-weight: 400;
     color: #333333;
     text-align: center;
+    padding-bottom: 15px;
+
 }
 
-.Doctors-Title, .Radiology-Title, .LabTests-Title, .Retail-Title{
-    margin-top: 16px;
-    text-align: center;
-    margin-bottom: 14px;
-}
-
-.Doctors-Ul, .LabTests-Ul, .Radiology-Ul, .Retail-Ul{
+.Doctors-Ul, .LabTests-Ul, .Radiology-Ul, .Retail-Ul, .Insurance-Ul, .Pediatric-Ul, .Elderly-Ul, .MedicalHistory-Ul{
     display: block;
     text-align: left;
     padding-left: 40px;
+    margin-top: 14px;
+    margin-bottom: 14px;
 }
+
 .Doctors-Ul{
     margin-bottom: 14px;
 }
+
 .LabTests-Ul, .Radiology-Ul{
     margin-bottom: 46px;
 }
-.Retail-Ul{
-    margin-bottom: 14px;
+
+.Insurance-Ul{
+    margin-bottom: 30px;
 }
+
+.Pediatric-Ul{
+    margin-top: 28px;
+    margin-bottom: 16px;
+}
+
+.Elderly-Ul{
+    margin-top: 28px;
+}
+
+.MedicalHistory-Ul{
+    margin-top: 28px;
+    margin-bottom: 16px;
+}
+
 .Outpatient, .Supplements{
     margin-bottom: 16px;
     text-align: center;
@@ -402,4 +420,24 @@ ul{
 .Experience-Seamless{
     text-align: center;
     margin-bottom: 16px;
+}
+
+.Insurance-Card{
+    margin-bottom: 64px;
+}
+
+.Individual-Profile{
+    margin-bottom: 32px;
+}
+
+.Prescription{
+    margin-bottom: 18px;
+}
+
+.Journey{
+    margin-bottom: 97px;
+}
+
+.Journey-Stages{
+    margin-bottom: 28px;
 }
