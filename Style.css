@@ -320,7 +320,7 @@ ul{
     color: #888a8c;
 }
 
-.Healthcare-Section-Icon{
+.Healthcare-Section-Icon-Start{
     display: flex;
     justify-content: center;
     margin-top: 49px;
@@ -441,3 +441,52 @@ ul{
 .Journey-Stages{
     margin-bottom: 28px;
 }
+
+.Healthcare-Section-Icon-Finish{
+    padding-top: 26.5px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 26.5px;
+}
+
+.Manifesto{
+    display: flex;
+    background-color: #888a8c;
+    justify-content: space-between;
+}
+
+.MenImg{
+    width: 400px;
+    height: 400px;
+}
+
+.Manifesto-TextDiv{
+    background-color: white;
+    padding: 45px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 856px;
+}
+
+.Manifesto-Title{
+    color: #313131;
+    margin-bottom: 26px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.Manifesto-Text{
+    font-size: 16px;
+    text-align: left;
+    color: #888a8c;
+    font-weight: 400;
+}
+
+.Manifesto-TextP{
+    line-height: 1.5;
+    width: 570px;
+    margin-bottom: 19px;
+}
+
