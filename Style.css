@@ -267,10 +267,13 @@ ul{
 .Seamless-Experance{
     text-align: center;
     font-size: 35px;
+    font-weight: 700;
+    color: #272725;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 25px;
     margin-bottom: 55px;
 }
+
 .Seamless-Experance-Items{
     display: flex;
     justify-content: space-between;
@@ -333,7 +336,7 @@ ul{
 }
 
 .Healthcare-Section-Title{
-    font-size: 29px;
+    font-size: 35px;
     text-align: center;
     color: #272725;
     font-family: Arial, Helvetica, sans-serif;
@@ -353,6 +356,7 @@ ul{
 }
 
 .Healthcare-Ecosystem-Item-Img{
+    display: flex;
     margin-top: 10px;
     width: 231.25px;
     height: 231.25px;
@@ -467,7 +471,7 @@ ul{
     margin-bottom: 100px;
     margin-right: 80px;
     font-family: Arial, Helvetica, sans-serif;
-    width: 856px;
+    width: 1010px;
 }
 
 .Manifesto-Title{
@@ -490,3 +494,240 @@ ul{
     margin-bottom: 19px;
 }
 
+.For-MoreInformation-Section-Background{
+    background-color: #f4f4f3;
+}
+
+.MoreInformation-Section-Title{
+    padding-top: 14.5px;
+    padding-bottom: 10px;
+    color: #272725;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.MoreInformation-Section-Line{
+    width: 42px;
+    height: 2px;
+    background-color: #987361;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.MoreInformation-Section-Subtitle{
+    color: #987361;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.Inquire{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.FirstName-Input{
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.First-Name{
+    border: 0;
+    background: 0;
+    border-bottom: 1px solid;
+    height: 30px;
+    width: 430px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+label{
+    color: #3c3e47;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.LastName-Input{
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.Last-Name{
+    border: 0;
+    background: 0;
+    border-bottom: 1px solid;
+    height: 30px;
+    width: 430px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.Organization-Input{
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.Organization{
+    border: 0;
+    background: 0;
+    border-bottom: 1px solid;
+    height: 30px;
+    width: 246px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.JobTitle-Input{
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.Job-Title{
+    border: 0;
+    background: 0;
+    border-bottom: 1px solid;
+    height: 30px;
+    width: 246px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.Inquire-Part{
+    display: flex;
+}
+
+.Phone-Input{
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.Phone{
+    border: 0;
+    background: 0;
+    border-bottom: 1px solid;
+    height: 30px;
+    width: 430px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.E-Mail-Input{
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.E-Mail{
+    border: 0;
+    background: 0;
+    border-bottom: 1px solid;
+    height: 30px;
+    width: 430px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.Message-Textarea{
+    margin-top: 20px;
+    padding-left: 15px;
+}
+
+.Message{
+    border: 0;
+    background: 0;
+    border-bottom: 1px solid;
+    padding: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: 900px;
+}
+
+.Message::placeholder{
+    color: #999;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal; 
+    text-align: left; 
+}
+
+.Checkbox-Input{
+    margin-top: 8px;
+    margin-right: 4.5px;
+    margin-bottom: 8px;
+}
+
+.Checkbox-Title{
+    color: #3c3e47;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.Checkboxes{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.RadioBox-Title{
+    color: #3c3e47;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.Radio{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 4.5px;
+}
+
+.RadioBoxes{
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.Agree-Input{
+    display: flex;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.Agree{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 4.5px;
+}
+
+.Agree-Title{
+    color: #3c3e47;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    align-items: center; 
+    display: flex;
+}
