@@ -40,26 +40,26 @@ header{
     justify-content: space-between;
 }
 .Contact-Item-Location{
-    margin-top: 7px;
+    margin-top: 8px;
     display: flex;
 }
 
 .Contact-Item-Adress{
     margin-right: 166px;
     margin-left: 85px;
-    margin-top: 6px;
+    margin-top: 10px;
     display: flex;
 }
 
 .Linkedin-Adress{
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    margin-right: 14px;
 }
 
 .Email-Adress{
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
 }
 
 .Location, .Phone-Number{
@@ -80,12 +80,13 @@ header{
 
 .Navigation-Items{
     display: flex;
-    justify-content: space-between;
 }
 
 .Header-Nav{
     display: flex;
     margin-top: 50px;
+    padding-bottom: 15px;
+    padding-left: 85px;
 }
 
 ul{
@@ -105,15 +106,23 @@ ul{
     display: flex;
     font-size: 18px;
     font-weight: 700;
+    padding-bottom: 6px;
     font-family:Arial, Helvetica, sans-serif;
+}
+
+.Nav-Contacts{
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
     padding-bottom: 4px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .Header-Link, .Dropdown-Solutions, .Dropdown-Customers{
     text-decoration: none;
     color: inherit;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15.25px;
+    padding-right: 15.25px;
     z-index: 1;
 }
 
@@ -126,7 +135,7 @@ ul{
 .Home-Button-Image{
     width: 181px;
     height: 98px;
-    margin-right: 28px;
+    margin-right: 59px;
 }
 
 .Nav-About:hover, .Nav-OurSolutions:hover, .Nav-OurCustomers:hover, .Nav-Contacts:hover{
@@ -198,8 +207,8 @@ ul{
 .Dropdown-Icon{
     width: 10px;
     height: 6px;
-    margin-left: 5px;
-    transition: 0.2s;
+    margin-left: 11px;
+    transition: 0.4s;
 }
 
 .Header-Link-Customers, .Header-Link-Solutions{
@@ -667,6 +676,8 @@ label{
     margin-top: 3px;
     margin-bottom: 3px;
     width: 900px;
+    height: auto;
+    min-height: 30px;
 }
 
 .Message::placeholder{
@@ -687,6 +698,7 @@ label{
     color: #3c3e47;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
+    font-size: 15px;
 }
 .Checkboxes{
     padding-left: 15px;
@@ -697,6 +709,7 @@ label{
     color: #3c3e47;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
+    font-size: 15px;
 }
 
 .Radio{
@@ -728,6 +741,115 @@ label{
     color: #3c3e47;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
+    font-size: 15px;
     align-items: center; 
     display: flex;
+}
+
+.Sumbit-Button{
+    display: flex;
+    justify-content: center;
+    margin-top: 118px;
+    padding-bottom: 40px;
+}
+
+.Sumbit{
+    border: none;
+    border: 2px solid #4b8578;
+    width: 277px;
+    height: 48px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 24px;
+    color: #4b8578;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+footer{
+    height: 225px;
+    background-color: #272725;
+}
+
+.Footer-Items{
+    display: flex;
+}
+
+.Footer-Home-Button-Img{
+    width: 160px;
+    height: 87px;
+}
+
+.Footer-Email-Adress-Img{
+    width: 15px;
+    height: 12px;
+    margin-right: 20px;
+}
+
+.Footer-Linkedin-Adress-Img{
+    width: 10px;
+    height: 11px;
+}
+
+.Footer-Adresses{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.Footer-Button-And-Adresses{
+    padding-top: 40px;
+    margin-right: 180px;
+}
+
+.Contact-Title{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #997361;
+    padding-top: 52px;
+    padding-bottom: 10px;
+}
+
+.Footer-Physical-Location, .Footer-Info-Adress, .Footer-Phone-Number{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Footer-Info-Adress{
+    margin-top: 8px;
+    margin-bottom: 8px;
+} 
+
+.Footer-Ul li{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Footer-Ul a{
+    color: inherit;
+    color: white;
+    text-decoration: none;
+}
+
+.Footer-Ul{
+    display: block;
+}
+
+.Footer-Navigation{
+    margin-top: 60px;
+    margin-left: 75px;
+}
+
+.Footer-Nav-About{
+    margin-bottom: 12px;
+}
+
+.Footer-Nav-OurCustomers{
+    margin-bottom: 12px;
+}
+
+.Footer-Nav-OurSolutions{
+    margin-bottom: 12px;
 }
